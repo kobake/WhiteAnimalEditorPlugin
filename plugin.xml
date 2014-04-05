@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="しろい動物エディター"
+            extensions="we"
+            icon="icons/northpole.gif"
+            contributorClass="whiteanimaleditorplugin.editors.WhiteAnimalEditorContributor"
+            class="whiteanimaleditorplugin.editors.WhiteAnimalEditor"
+            id="whiteanimaleditorplugin.editors.WhiteAnimalEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="しろいカテゴリ"
+            id="WhiteAnimalEditorPlugin">
+      </category>
+      <wizard
+            name="しろいウィザード"
+            icon="icons/northpole.gif"
+            category="WhiteAnimalEditorPlugin"
+            class="whiteanimaleditorplugin.wizards.SampleNewWizard"
+            id="whiteanimaleditorplugin.wizards.SampleNewWizard">
+      </wizard>
+   </extension>
+
+</plugin>
