@@ -59,9 +59,11 @@ public class WhiteAnimalEditorContributor extends MultiPageEditorActionBarContri
 			actionBars.setGlobalActionHandler(
 				ActionFactory.REDO.getId(),
 				getAction(editor, ITextEditorActionConstants.REDO));
+			/*
 			actionBars.setGlobalActionHandler(
 				ActionFactory.CUT.getId(),
 				getAction(editor, ITextEditorActionConstants.CUT));
+			*/
 			actionBars.setGlobalActionHandler(
 				ActionFactory.COPY.getId(),
 				getAction(editor, ITextEditorActionConstants.COPY));

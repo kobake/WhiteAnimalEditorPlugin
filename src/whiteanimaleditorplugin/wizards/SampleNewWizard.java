@@ -129,7 +129,7 @@ public class SampleNewWizard extends Wizard implements INewWizard {
 
 	private InputStream openContentStream() {
 		String contents =
-			"This is the initial file contents for *.we file that should be word-sorted in the Preview page of the multi-page editor";
+			"いつもいつもあれをしろ、これをしろとうるさいなあ!!!";
 		return new ByteArrayInputStream(contents.getBytes());
 	}
 
